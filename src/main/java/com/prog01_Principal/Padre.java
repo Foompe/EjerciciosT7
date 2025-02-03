@@ -1,14 +1,15 @@
 package com.prog01_Principal;
 
 public class Padre{
-    Padre() {
-        System.out.println("En el constructor sin parametros del padre");
+
+    public String nombre;
+
+    public Padre () {
     }
-    Padre (String mensaje){
-        System.out.println("En el constructor con mensaje del padre: " +mensaje);
-    }
-    Padre (int numero){
-        System.out.println("En el constructor con numero del padre: " + numero);
+
+    public Padre (String nombre) {
+        this.nombre=nombre;
     }
 }
+
 
