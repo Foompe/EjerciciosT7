@@ -4,14 +4,15 @@ package com.prog01_Principal;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        System.out.println("Empezamos");
+        System.out.println("Constructor sin parametros");
+        Nieta nieta=new Nieta();
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        System.out.println("\nConstructor con mensaje");
+        Nieta nieta2=new Nieta(" Hola mundo");
+
+        System.out.println("\nConstructor con numero");
+        Nieta nieta3 =new Nieta (-1);
     }
+
 }
