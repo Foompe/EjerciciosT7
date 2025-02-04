@@ -23,7 +23,7 @@ public class Main {
         Gato gato = new Gato(10, "Kira", "Comun Europeo");
         Loro loro = new Loro(5, "Federico", "Azul");
         Pez pez = new Pez(2, "jose", "Rojo", "Pequeño");
-
+/**
         System.out.println(perro);
         System.out.println(gato);
         System.out.println(loro);
@@ -39,6 +39,11 @@ public class Main {
         //recorremos el array
         for (Persona persona : personas) {
             persona.saludar();
+        }
+        */
+        Saludable[] saludo = {perro,gato,pez,loro,alumno,profesor};
+        for (Saludable saludar : saludo) {
+            saludar.saludar();
         }
     }
 }

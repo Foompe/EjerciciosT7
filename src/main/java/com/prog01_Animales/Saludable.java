@@ -2,6 +2,6 @@ package com.prog01_Animales;
 
 public interface Saludable {
 
-    public void saludar();
-
+    //no es necesario poner public en el método
+    void saludar();
 }
