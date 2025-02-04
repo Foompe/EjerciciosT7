@@ -10,29 +10,35 @@ import java.util.Arrays;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-       /** Alumno alumno = new Alumno(Arrays.asList("Matematicas","Historia"), "Carlos", "Suarez",23);
-        Profesor profesor = new Profesor("Ana","Ramirez",45, 5589628,6565656,"Lunes a viernes 9:00 - 17:00");
-        //creamos un array de persona
-        Persona[] personas = {alumno,profesor};
-        //recorremos el array
-        for (Persona persona : personas) {
-            System.out.println(persona);
-        } **/
+        Alumno alumno = new Alumno(Arrays.asList("Matematicas", "Historia"), "Carlos", "Suarez", 23);
+        Profesor profesor = new Profesor("Ana", "Ramirez", 45, 5589628, 6565656, "Lunes a viernes 9:00 - 17:00");
+/**     //creamos un array de persona
+ Persona[] personas = {alumno,profesor};
+ //recorremos el array
+ for (Persona persona : personas) {
+ System.out.println(persona);
+ } **/
 
-        Perro perro = new Perro(16,"Rocky","Mediano","Partor Aleman");
-        Gato gato = new Gato(10,"Kira", "Comun Europeo");
-        Loro loro = new Loro(5,"Federico","Azul");
-        Pez pez = new Pez(2,"jose","Rojo","Pequeño");
+        Perro perro = new Perro(16, "Rocky", "Mediano", "Partor Aleman");
+        Gato gato = new Gato(10, "Kira", "Comun Europeo");
+        Loro loro = new Loro(5, "Federico", "Azul");
+        Pez pez = new Pez(2, "jose", "Rojo", "Pequeño");
 
         System.out.println(perro);
         System.out.println(gato);
         System.out.println(loro);
         System.out.println(pez);
 
-        Animal[] animales = {perro,gato,loro,pez};
+        Animal[] animales = {perro, gato, loro, pez};
         for (Animal animal : animales) {
-            System.out.println(animal);
+            animal.saludar();
         }
 
+
+        Persona[] personas = {alumno, profesor};
+        //recorremos el array
+        for (Persona persona : personas) {
+            persona.saludar();
+        }
     }
 }

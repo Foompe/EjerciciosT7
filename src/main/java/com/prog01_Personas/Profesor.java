@@ -14,6 +14,11 @@ public class Profesor extends Persona{
     }
 
     @Override
+    public void saludar() {
+        System.out.println("Hola, soy " + nombre + " y soy profesor");
+    }
+
+    @Override
     public String toString() {
         return "Datos profesor:\nNombre: " + nombre + "\nApellidos: " + apellidos +
                 "\nEdad: " + edad + "\nnuss: " + nuss + "\nTelefono: " + tlfn +

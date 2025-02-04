@@ -11,6 +11,11 @@ public class Alumno extends Persona{
         this.modulos=modulos;
     }
 
+    @Override
+    public void saludar() {
+        System.out.println("Hola, soy " + nombre + " y soy alumno");
+    }
+
     public String toString() {
         return "Datos Alumno:\nNombre: " + nombre + "\nApellidos: " + apellidos +
                 "\nEdad: " + edad + "\nModulos: " + modulos + "\n--------------------------------------------------";
