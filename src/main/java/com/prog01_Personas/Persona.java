@@ -1,6 +1,6 @@
 package com.prog01_Personas;
 
-import com.prog01_Animales.Saludable;
+import com.prog01_Interfaces.Saludable;
 
 public class Persona implements Saludable {
     protected String nombre;

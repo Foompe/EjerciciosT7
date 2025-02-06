@@ -1,4 +1,4 @@
-package com.prog01_Animales;
+package com.prog01_Interfaces;
 
 public interface Saludable {
 

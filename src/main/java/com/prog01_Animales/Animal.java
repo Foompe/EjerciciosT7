@@ -1,6 +1,8 @@
 package com.prog01_Animales;
 
-public class Animal implements Saludable{
+import com.prog01_Interfaces.Saludable;
+
+public class Animal implements Saludable {
     private String nombre;
     private int edad;
 

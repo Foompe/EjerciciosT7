@@ -1,7 +1,7 @@
 package com.prog01_Principal;
 import com.prog01_Animales.*;
+import com.prog01_Interfaces.Saludable;
 import com.prog01_Personas.Alumno;
-import com.prog01_Personas.Persona;
 import com.prog01_Personas.Profesor;
 
 import java.util.Arrays;
