@@ -13,6 +13,16 @@ public class Periodico extends Lectura{
         this.ano = ano;
     }
 
+    @Override
+    public String toString() {
+        return "Periodico{" +
+                "fechaPublic=" + fechaPublic +
+                ", ano=" + ano +
+                ", editor='" + editor + '\'' +
+                ", titulo='" + titulo + '\'' +
+                '}';
+    }
+
     public LocalDate getFechaPublic() {
         return fechaPublic;
     }
