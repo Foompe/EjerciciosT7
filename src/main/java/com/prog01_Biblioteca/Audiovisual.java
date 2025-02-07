@@ -1,8 +1,15 @@
 package com.prog01_Biblioteca;
 
-abstract class Audiovisual extends Producto{
+import com.prog01_Interfaces.Inventariable;
+
+abstract class Audiovisual extends Producto implements Inventariable {
 
     protected String compania;
+    protected String codInventario;
+
+    public String getCodigoInventario () {
+        return codInventario;
+    }
 
     public String getCompania() {
         return compania;
